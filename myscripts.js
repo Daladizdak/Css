@@ -48,9 +48,9 @@ $('#reviewList').empty();
 var tableRows = '';
 snapshot.forEach((doc) => {
 tableRows += '<tr>';
-tableRows += '<td>' + doc.data().move_name + '</td>';
-tableRows += '<td>' + doc.data().move_director + '</td>';
-tableRows += '<td>' + doc.data().move_release + '</td>';
+tableRows += '<td>' + doc.data().movie_name + '</td>';
+tableRows += '<td>' + doc.data().movie_director + '</td>';
+tableRows += '<td>' + doc.data().movie_release + '</td>';
 tableRows += '<td>' + doc.data().movie_rating + '/5</td>';
 tableRows += '</tr>';
 });
